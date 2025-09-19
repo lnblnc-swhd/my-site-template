@@ -39,7 +39,7 @@ export function Hero() {
     greeting: "WELCOME",
     name: "BND",
     title: "Believe And Do",
-    description: "Beyond Now & Do / Balance • Nature • Discipline / Lifestyle Improvement Lecture Instructor : D",
+    description: "Lifestyle Improvement Lecture Instructor : D",
     profileImage: "/uploads/hero-profile-1758258388850.png",
     background: {"image":"","video":"","color":"#00ffbf","opacity":0.1},
     projectButton: "MY PROJECT"

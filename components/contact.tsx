@@ -38,7 +38,7 @@ export function Contact() {
     title: "강연 강사 / 트레이너",
     company: "BND / THESKYGYM",
     experience: "16년 경력",
-    phone: "010-2211-3239",
+    phone: "010-0000-0000",
     email: "lnblnc@naver.com",
     website: "",
     location: "경기도 고양시",

@@ -29,7 +29,7 @@ export function Footer() {
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,
     contactTitle: "연락처",
-    phone: "010-2211-3239",
+    phone: "010-0000-0000",
     email: "lnblnc@naver.com",
     location: "경기도 고양시",
     copyright: "",
