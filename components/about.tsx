@@ -96,15 +96,15 @@ export function About() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    title: "BND",
+    subtitle: "Powered by.SWHD",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    experienceCards: [{"icon":"user","title":"경기도민","period":"1989","description":"원래 서울 사람"},{"icon":"shield","title":"보안 능력","period":"2024","description":"입이 요새 좀 가벼워졌습니다."},{"icon":"target","title":"심금 브레이커","period":"2025","description":"제2의 궤도, 김창옥 님이 목표입니다."}],
+    skills: [{"icon":"brain","title":"과학자 꿈나무","description":"뇌신경과학, 장내미생물학, 인지행동과학, 영양학, 후성유전학, 등. 을 공부중 입니다.\n과학 경시 대회 입상 다수.\n경기도 고양시 교육청 주관 과학 영재 출신."},{"icon":"users","title":"연극 전공","description":"또 다른 전공도 공부중. 만학도."},{"icon":"heart","title":"낙관적 허무주의","description":"내 마음대로 할꺼다~ 응,어쩌라고 행복할꺼다~"},{"icon":"palette","title":"디자인","description":"홍대 창조의 아침 재수생 출신"},{"icon":"music","title":"음악","description":"중학교 밴드 보컬 출신"},{"icon":"edit","title":"글쓰기","description":"일기 쓰기 싫어서 대신 쓴 동시가 우연히 수상 다수."},{"icon":"lightbulb","title":"창의력","description":"음미체 전부 기웃기웃. 수학,과학,문학 전부 기웃기웃. 좌뇌우뇌섹남. 그래서 머리가 큰가봄. 대극장형 배우상."},{"icon":"trophy","title":"MBTI","description":"ENFJ or ENTJ"}],
+    storyTitle: "SWHD STORY",
+    story: ["낮에는 체육 강사로, 밤에는 연극 배우로 살아가던 시절, 저는 한 동료 배우를 잘못된 다이어트와 깊은 우울증으로 잃는 아픔을 겪었습니다. 그 경험은 제 삶에 큰 흔적을 남겼습니다.","저 역시 한때 체중이 40kg 이상 불어나며, 우울증·공황장애·불면증·알코올 의존·대인기피 등 다양한 신체적·정신적 고통을 겪었습니다. 그러나 이 과정을 통해 인간의 몸과 마음이 왜 알면서도 변하지 못하는지에 대한 근본적인 의문을 품게 되었고, 그 답을 찾기 위해 8년째 영양학·뇌신경과학·인지행동과학을 연구하고 나에게 실험하며 실천하고 있습니다.","현대 사회에는 비만, 아토피, 성조숙증, 우울증, 불면증 등 흔한 질병들이 참 많습니다.\n어릴적 비 맞으며 흙으로 두꺼비집을 만들고, 코 먹던 시절이 더 간강했던 것 같습니다.\n(저는 코 안먹었습니다.)\n이는 여전히 원시적 신호에 따라 움직이는 우리의 몸과, 자극만 가득한 현대 환경 사이의 불균형에서 비롯됩니다. 저는 이 불균형을 회복하는 길이 곧 건강과 행복의 시작이라고 생각합니다.","저의 사명은 단순히 ‘다이어트나 몸을 만드는 것’을 넘어, 몸과 마음의 균형을 되찾아 진짜 삶의 주체로 살아가도록 돕는 것입니다. 저는 지식과 경험을 나누고 먼저 실천하며, 깨지고 부딪히고 나아가는 모습을 보여드리며, 긍정적인 에너지로 주변 사람들이 모두 건강하고 행복한 삶을 살아 갈 수 있도록 기여하고자 합니다."],
+    storyImage: "/uploads/about-image-1758261465782.png",
+    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행","🏃 러닝","🎬 영화 감상","🎭 연극 관람","🎪 공연 관람"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

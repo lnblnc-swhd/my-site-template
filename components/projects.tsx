@@ -15,15 +15,10 @@ export function Projects() {
   const defaultInfo = {
     title: "프로젝트",
     subtitle: "프로젝트",
-    initialDisplay: 6,
+    initialDisplay: 3,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-1758269888033-1758269889956.png","video":"","title":"인지 왜곡의 대표적 유형","description":"내가 몇가지 해당 되나 체크해 봅시다."},{"image":"/uploads/project-1758269966125-1758269966595.png","video":"","title":"인지 왜곡의 대표적 유형","description":"내가 몇가지 해당 되나 체크해 봅시다."},{"image":"","video":"/uploads/project-1758270872011-1758270872053.mp4","title":"BND","description":"Believe and Do / Beyond Now & Do / Balance, Nature, Discipline"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

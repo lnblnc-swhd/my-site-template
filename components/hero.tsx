@@ -36,13 +36,13 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "당신의 이름",
-    title: "프론트엔드 개발자",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    profileImage: "",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    projectButton: "프로젝트 보기"
+    greeting: "WELCOME",
+    name: "BND",
+    title: "Believe And Do",
+    description: "Beyond Now & Do / Balance • Nature • Discipline / Lifestyle Improvement Lecture Instructor : D",
+    profileImage: "/uploads/hero-profile-1758258388850.png",
+    background: {"image":"","video":"","color":"#00ffbf","opacity":0.1},
+    projectButton: "MY PROJECT"
   }
 
   const [backgroundData, setBackgroundData] = useState(
