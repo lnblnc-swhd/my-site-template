@@ -7,17 +7,17 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: "나의 포트폴리오",
-  description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
+  title: "[ BND ] Powered by.SWHD",
+  description: "당신의 행복한 삶을 응원합니다.",
   keywords: ["포트폴리오", "개발자", "프론트엔드", "웹개발"],
   authors: [{ name: "당신의 이름" }],
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://your-domain.com",
-    title: "나의 포트폴리오",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    siteName: "나의 포트폴리오",
+    title: "[ BND ] Powered by.SWHD",
+    description: "당신의 행복한 삶을 응원합니다.",
+    siteName: "[ BND ] Powered by.SWHD",
     images: [
       {
         url: "/api/og-image", // 동적 OG 이미지 API
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "나의 포트폴리오",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
+    title: "[ BND ] Powered by.SWHD",
+    description: "당신의 행복한 삶을 응원합니다.",
     images: ["/api/og-image"],
   },
   robots: {

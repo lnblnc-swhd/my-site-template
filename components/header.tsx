@@ -56,8 +56,9 @@ export function Header() {
       setSiteTitle(savedTitle)
       document.title = savedTitle
     } else {
-      // 현재 document.title을 기본값으로 사용
-      setSiteTitle(document.title)
+      // ⬇︎ 코드에 적은 기본 제목을 그대로 사용
+    setSiteTitle(defaultConfig.siteTitle)
+    document.title = defaultConfig.siteTitle
     }
     
     const savedData = getData('nav-config') as { 
